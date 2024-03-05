@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  display: flex;
+}
+.header {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #ff8080;
+}
+.menu-bar {
+  height: 30px;
+}
+li {
+  font-size: 25px;
+  margin-right: 50px;
+  font-weight: 600;
+}
+.menu-container {
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+}
+body {
+  margin: 0%;
+}
