@@ -34,7 +34,6 @@ body {
     rgba(247, 246, 180, 1) 38%,
     rgba(184, 74, 252, 1) 99%
   );
-  height: 100vh;
 }
 .page1 {
   display: flex;
@@ -66,4 +65,55 @@ button {
 }
 .button-text {
   font-size: 15px;
+}
+.box-4 {
+  background-color: #ff8080;
+  width: 25vw;
+  padding-left: 2.5vw;
+  margin-right: 5vw;
+  height: 35vh;
+}
+.page2 {
+  display: flex;
+}
+.content2 {
+  width: 50vw;
+  margin-top: 10vh;
+}
+.box-3 {
+  width: 50vw;
+  display: flex;
+  flex-direction: row;
+  padding: 75px;
+  padding-right: 0;
+}
+.image2 {
+  width: 20vw;
+  height: 35vh;
+  margin-bottom: 5vh;
+}
+.image3 {
+  width: 20vw;
+  height: 35vh;
+}
+.image4 {
+  width: 20vw;
+  height: 75vh;
+  margin-left: 20px;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 75vh;
+}
+.para1 {
+  font-size: 20px;
+  width: 500px;
+}
+.heading1 {
 }
